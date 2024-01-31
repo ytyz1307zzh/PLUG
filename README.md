@@ -6,9 +6,7 @@ This is the repository for **PLUG** (**P**ivot **L**anguage g**U**ided **G**ener
 
 ### Code
 
-**Due to the requirements of company policies, the code is currently under legal review, and will be released once the review is finished. Before that, if you would like to access the code (model training, inference & evaluation), please email your request to zzhang23@nd.edu and we will provide a copy. We apologize for any inconvenience caused by this process.**
-
-Besides sending emails to request our code, you can actually use any instruction tuning code to train your LLM on our released data (see `data` section below). For example, our code is largely adopted from [TULU](https://github.com/allenai/open-instruct) with negligible modifications.
+**Due to the requirements of company policies, the code (model training, inference, and evaluation) will be put in the company's official Github repo later. We will provide a redirect link once the repo is ready. For now, if you would like to access the code, we put a copy in this [Google Drive](https://drive.google.com/drive/folders/1Gs1sHs0qigVrDwtU2YtBAIEV4TX2_VZ1?usp=sharing). If you have any questions about the code, please feel free to contact us at zzhang23@nd.edu.**
 
 ### Data
 
