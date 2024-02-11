@@ -6,7 +6,15 @@ This is the repository for **PLUG** (**P**ivot **L**anguage g**U**ided **G**ener
 
 ### Code
 
-**Due to the requirements of company policies, the code (model training, inference, and evaluation) will be put in the company's official Github repo later. We will provide a redirect link once the repo is ready. For now, if you would like to access the code, we put a copy in this [Google Drive](https://drive.google.com/drive/folders/1Gs1sHs0qigVrDwtU2YtBAIEV4TX2_VZ1?usp=sharing). If you have any questions about the code, please feel free to contact us at zzhang23@nd.edu.**
+Code can be found in `src` directory, which contains the following sub-directories:
+
+- `ds_config`: the configuration files for DeepSpeed.
+- `model`: code for LLM training (instruction tuning a.k.a. SFT) and inference
+- `evaluate`: code for evaluating instruction-tuned LLMs on X-AlpacaEval, X-TruthfulQA, X-SVAMP
+- `translation`: code for translating training data (instructions and responses) to target languages
+- `utils`: utility function for OpenAI API calls
+
+Please refer to the corresponding directory for detailed information.
 
 ### Data
 
