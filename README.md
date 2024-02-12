@@ -4,6 +4,19 @@ This is the repository for **PLUG** (**P**ivot **L**anguage g**U**ided **G**ener
 
 <center><img src="figures/intro.png" alt="Auto-Instruct Illustration" width="428" height="384"></center>
 
+### Environment
+
+```bash
+pip install torch==2.0.1
+pip install transformers==4.31.0 deepspeed==0.9.5 accelerate==0.21.0
+# You may need to install a version of openai that is before 1.0.0. 
+# Otherwise, you may need to change the API request URL 
+# in src/util/gpt_utils.py
+pip install openai tiktoken tqdm peft huggingface_hub datasets 
+# Only for evaluating X-AlpacaEval
+pip install shortuuid anthropic
+```
+
 ### Code
 
 Code can be found in `src` directory, which contains the following sub-directories:
