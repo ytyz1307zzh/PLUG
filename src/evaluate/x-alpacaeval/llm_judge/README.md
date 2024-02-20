@@ -14,8 +14,11 @@ CKPT_DIR_2=PATH_TO_PLUG_CHECKPOINT
 # {
 #     "id": 1,
 #     "dataset": "helpful_base",
+#     "system": "Please interpret the instruction in English, and then respond both in English and in Chinese.",
 #     "instruction": "有哪些知名演员在百老汇开启职业生涯？",
-# } 
+# }
+# For the monolingual baseline, the system prompt is "Please respond to the following user message in Chinese."
+
 python src/evaluate/x-alpacaeval/llm_judge/llm_judge.py \
     --instruction_file data/x-alpacaeval/chinese.json \
     --answer_file \
