@@ -30,7 +30,7 @@ Please refer to the corresponding directory for detailed information.
 
 We provide the following data used in our experiments
 
-- [Training data](https://drive.google.com/drive/folders/1-Uz_fKQDwDEAmmDx4bBY2Iehpk6PkpS7?usp=sharing): The training data used in the paper. We used the GPT4-Alpaca instruction tuning dataset and translated it into 4 target languages with GPT-3.5-turbo.
+- [Training data](https://drive.google.com/drive/folders/1-TViFPmhR0nC1TfQDN2fwIhVbXyVczwT?usp=sharing): The training data used in the paper. We used the GPT4-Alpaca instruction tuning dataset and translated it into 4 target languages with GPT-3.5-turbo.
 - Evaluation benchmarks:
     - [X-AlpacaEval](https://huggingface.co/datasets/zhihz0535/X-AlpacaEval): The main benchmark we used to evaluate the open-ended instruction-following abilities of LLMs. The benchmark was collected by hiring professional human translators to translate the original English [AlpacaEval](https://huggingface.co/datasets/tatsu-lab/alpaca_eval) into 4 target languages. We used GPT-4 as the judge to compare responses from two models. We used the evaluation code from [MT-bench](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge), with a small edit in the GPT-4 prompt (specified in Appendix B of our paper).
     - [X-TruthfulQA](https://huggingface.co/datasets/zhihz0535/X-TruthfulQA_en_zh_ko_it_es): Auxiliary experiments in our paper that evaluates the truthfulness of multilingual LLMs. We evaluated LLMs in a zero-shot generative setting: prompt the instruction-tuned LLM with the question, collect its answer, and let GPT-4 compare the answer with the reference answers.
